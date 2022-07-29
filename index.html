@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body class="noselect">
+    <div class="container">
+      <div class="team-wrapper">
+        <h3 class="team-name">HOME</h3>
+        <div class="score-wrapper">
+          <h1 id="home-score" class="score">0</h1>
+        </div>
+        <div class="btn-wrapper">
+          <button id="home1" onclick="homeAddOne()">+1</button>
+          <button id="home2" onclick="homeAddTwo()">+2</button>
+          <button id="home3" onclick="homeAddThree()">+3</button>
+        </div>
+      </div>
+
+      <div class="reset-wrapper">
+        <button onclick="resetScore()" class="material-symbols-outlined">
+          restart_alt <br />
+          <div>RESET</div>
+        </button>
+      </div>
+
+      <div class="team-wrapper">
+        <h3 class="team-name">AWAY</h3>
+        <div class="score-wrapper">
+          <h1 id="away-score" class="score">0</h1>
+        </div>
+        <div class="btn-wrapper">
+          <button id="away1" onclick="awayAddOne()">+1</button>
+          <button id="away2" onclick="awayAddTwo()">+2</button>
+          <button id="away3" onclick="awayAddThree()">+3</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
