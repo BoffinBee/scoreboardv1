@@ -4,14 +4,6 @@ let awayScore = 0;
 const homeScoreEl = document.getElementById("home-score");
 const awayScoreEl = document.getElementById("away-score");
 
-homeOne = document.getElementById("home1");
-homeTwo = document.getElementById("home2");
-homeThree = document.getElementById("home3");
-
-awayOne = document.getElementById("away1");
-awayTwo = document.getElementById("away2");
-awayThree = document.getElementById("away3");
-
 function resetScore() {
   homeScore = 0;
   awayScore = 0;
